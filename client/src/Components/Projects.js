@@ -21,5 +21,6 @@ export default Projects;
 const styles = {
   head: {
     textAlign: 'center',
+    textShadow: '2px 2px grey',
   }
 }
