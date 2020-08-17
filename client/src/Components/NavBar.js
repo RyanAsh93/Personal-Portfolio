@@ -16,7 +16,8 @@ export default NavBar;
 
 const styles = {
   navBack: {
-    // background: 'red',
+    // boxShadow: '1px, 2px, 4px grey',
+    background: '#dfe6e9',
     // textColor: 'green',
   }
 }

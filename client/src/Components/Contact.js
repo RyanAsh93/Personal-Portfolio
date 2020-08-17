@@ -15,7 +15,8 @@ function Contact() {
       <h4>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/ryansashworth/">
         www.linkedin.com/in/ryansashworth</a></h4>
         <hr/>
-        <img src={ContactImage} />
+        <div style={styles.editContactImg}> 
+        </div>
     </div>
   )
 }
@@ -26,6 +27,14 @@ const styles = {
   head: {
     textAlign: 'center',
     textShadow: '2px 2px dodgerblue',
+  },
+  editContactImg: {
+    textAlign: 'center',
+    background: `url(${ContactImage})`,
+    backgroundPosition: 'center',
+    height: '150px',
+    mixBlendMode: 'multiply',
+    backgroundRepeat: 'no-repeat',
   },
   centering: {
     textAlign: 'center',
