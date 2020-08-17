@@ -1,16 +1,13 @@
 {
-  "dependencies": {
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^1.2.0"
-  },
-  "scripts": {
-    "build": "cd client && npm install --only=dev && npm install && npm run build && cd ..",
-    "deploy": "cp -a client/build/. public/",
-    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client Built'"
-  },
   "name": "personal_portfolio",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "scripts": {
+    "build": "cd client && npm install --only=dev && npm install && npm run build && cd ..",
+  "deploy": "cp -a client/build/. public/",
+  "heroku-postbuild": "npm run build && npm run deploy && echo 'Client Built'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RyanAsh93/Personal-Portfolio.git"
@@ -21,6 +18,5 @@
   "bugs": {
     "url": "https://github.com/RyanAsh93/Personal-Portfolio/issues"
   },
-  "homepage": "https://github.com/RyanAsh93/Personal-Portfolio#readme",
-  "description": ""
+  "homepage": "https://github.com/RyanAsh93/Personal-Portfolio#readme"
 }
