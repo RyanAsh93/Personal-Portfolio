@@ -11,7 +11,7 @@ function About() {
       <Row style={styles.editRow} >
     <Col> <Image src={uofu} fluid /> </Col>
     {/* <Col> <Image style={styles.editMe}/> </Col> */}
-    <Col> <Image src={Me} roundedCircle fluid /> </Col>
+    <Col> <Image src={Me} roundedCircle fluid style={styles.editMe} /> </Col>
     <Col> <Image src={devlogo} fluid style={styles.imgWrapper1} /> </Col>
     </Row>
     </Container>
@@ -39,8 +39,8 @@ const styles = {
     textShadow: '2px 2px grey',
   },
   editMe: {
-    // width: '300px',
-    // height: '300px',
+    width: '300px',
+    height: '300px',
     borderRadius: 300 / 2,
     overflow: 'hidden',
     border: '3px solid',
