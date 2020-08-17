@@ -9,7 +9,7 @@ function Home() {
        {/*<img style={styles.editImg} src={ Background } />*/}
        </div>
     <div>
-      <h1 style={styles.head} >Personal Profolio</h1>
+      <h1 style={styles.head} >Personal Portfolio</h1>
       <p style={styles.editPara} >Hello, my name is Ryan Ashworth I'm a newly graduate from a full-stack 
         web development bootcamp course through DevPoint Labs. I'm hard driven 
         to continuously grow, learn, and expertise in website development, and programming. 
