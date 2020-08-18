@@ -1,12 +1,11 @@
 {
   "name": "personal_portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "engines": {
     "node": "14.2.0",
     "npm": "6.14.4"
-    },
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -23,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/RyanAsh93/Personal-Portfolio/issues"
   },
-  "homepage": "https://github.com/RyanAsh93/Personal-Portfolio#readme"
+  "homepage": "https://github.com/RyanAsh93/Personal-Portfolio#readme",
+  "description": ""
 }
