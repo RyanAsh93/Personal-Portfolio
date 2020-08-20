@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "push": "npm run build && cp Staticfile ./build/Staticfile && bx cf push"
   },
   "eslintConfig": {
     "extends": "react-app"

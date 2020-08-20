@@ -35,7 +35,7 @@ const styles = {
     textAlign:'center',
   },
   editImg: {
-    height: '350px',
+    height: '450px',
     background: `url(${Background})`,
      backgroundSize: 'cover',
      backgroundPosition: 'center',
