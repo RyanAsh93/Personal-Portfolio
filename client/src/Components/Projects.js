@@ -13,9 +13,9 @@ function Projects() {
       <p>Built a app where you can add items for your shopping needs</p>
       <hr/>
       <h4>Personal Project</h4>
-      <a target="_blank" href="https://traise.mybluemix.net/">Traise App</a>
+      <a target="_blank" href="https://traise-dev.mybluemix.net/">Traise App</a>
       <p>Personal Project with brother, Started as a template but have been adding and removing multiple features</p>
-    </div>
+    </div> 
   )
 }
 
